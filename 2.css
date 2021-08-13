@@ -1,0 +1,112 @@
+html,
+
+body{
+height: 100%;
+}
+
+html{
+display: table;
+margin: auto;
+}
+
+body{
+display: table-cell;
+background: linear-gradient(to bottom,#87CEFA,#F5F5F5);
+}
+
+#header{
+display: flex;
+align-items: center;
+background-color: white;
+padding-left: 20px;
+padding-right: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+#headerTitle{
+font-size: 30px;
+color: coral;
+font-family: cursive;
+font-weight: bolder;
+margin-left: 20px;
+text-shadow: 2px 2px 4px #000000;
+}
+
+img{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+}
+
+form{
+border: 2px solid black;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 2px 3px 3px black;
+margin-top: 20px;
+}
+
+#registerText{
+text-align: center;
+text-decoration: underline;
+}
+
+tr>td:first-child{
+padding-right: 40px;
+font-size: 18px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+tr{
+height: 40px;
+}
+
+#buttonsTd{
+text-align: center;
+}
+
+input{
+outline: none;
+}
+
+input[type=text],
+input[type=radio],
+input[type=password]{
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+input[type=text],
+input[type=password]{
+width: 100%;
+border: 1px solid rgb(12, 86, 136);
+border-radius: 4px;
+overflow: hidden;
+padding-left: 4px;
+}
+
+input[type=submit],
+input[type=reset]{
+border: none;
+margin: 0;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 6px;
+padding-bottom: 6px;
+border-radius: 6px;
+background-color: blue;
+font-weight: bold;
+color: white;
+margin: 10px;
+cursor: pointer;
+}
+
+input[type=radio]{
+width: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,142 @@
+/*applicable for all elements*/
+*{
+
+	/*connecting fonts*/
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+height: 100%;
+}
+
+html{
+display: table;
+margin: auto;
+}
+
+body{
+display: table-cell;
+/*background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://previews.123rf.com/images/vasilyrosca/vasilyrosca1612/vasilyrosca161200265/68591246-cinema-movie-vector-poster-design-template-popcorn-filmstrip-clapboard-tickets-movie-time-background.jpg') no-repeat 0% 20%/ cover;*/
+  
+  	/*min-height: 100vh;*/
+	width: 100%;
+	/*setting background images and style*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Images/popcorn.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/*black button with red hover*/
+.heroBtnRed{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	padding: 8px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+/*black button with white hover*/
+.heroBtnBlack{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	padding: 3px 25px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.heroBtnRed:hover{
+	border: 1px solid #f44336; /*will turn red color when hovered*/
+	background: #f44336;
+	transition: 1s;
+}
+/*adding a hover element to the button*/
+.heroBtnBlack:hover{
+	border: 1px solid #fff; /*will turn white color when hovered*/
+	background: #fff;
+	transition: 1s;
+}
+
+#header{
+display: flex;
+align-items: center;
+background-color: white(0, 0, 0, 0.5);
+padding-left: 20px;
+padding-right: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+  justify-content: space-between;
+}
+
+.logoSolo{
+	width: 100px;
+}
+
+#headerTitle{
+font-size: 45px;
+color: black;
+/*font-family: cursive;
+font-weight: bolder;*/
+margin-left: 20px;
+/*text-shadow: 2px 2px 4px #000000;*/
+text-align: center;
+}
+
+//movie poster images
+img{
+width: 200px;
+height: 200%px;
+border-radius: 50px;
+}
+  
+.topnav {
+display: flex;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+box-shadow: 2px 2px 5px #444;
+overflow: hidden;
+background-color:red;
+}
+  
+.tableContent{
+  width: 100%;
+  display:none;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+  
+  .tableContent .tableCol{
+  	background-color: #f44336;
+    color: #fff;
+    text-align: left;
+    
+}
+  
+  .tableContent td{
+    padding: 12px 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+

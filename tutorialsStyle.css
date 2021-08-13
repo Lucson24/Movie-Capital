@@ -1,0 +1,116 @@
+/*background, logo, and header titles theme start*/
+
+/*applicable for all elements*/
+*{
+	margin: 0;
+	padding: 0;
+	/*connecting fonts*/
+	font-family: 'Poppins', sans-serif;
+}
+
+/*adding style to header*/
+.header{
+	min-height: 100vh;
+	width: 100%;
+	/*setting background images and style*/
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/film.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/*white button with red hover*/
+.heroBtnWhite{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+nav{
+	display:  flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*fix size and width of logo*/
+nav img{
+	width: 150px;
+}
+
+.navLinks{
+	flex: 1;
+	text-align: right;
+}
+
+.navLinks ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.navLinks ul li a{
+	/*navigation links will be white, and changing font size*/
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+/*adding link blocks underneath each navigation link*/
+.navLinks ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+}
+
+/*applying hover effect to navigation links*/
+.navLinks ul li:hover::after{
+	width: 100%;
+	transition: 0.5s;
+}
+
+/*/*background, logo, and header titles theme End*/
+
+/*services*/
+.tutorials{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+/*styling for the servics title*/
+h1{
+	font-size: 36px;
+	font-weight: 600;
+  	color: white;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.serviceCol{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport content="with=device-width, intitial-scale=1.0" charset="utf-8">
+	<title>Movie Capital-FAQ</title>
+    <meta name="description" content="Witness the questions asked by people and rectify your problems. You may find the answer you have been searching       for without questioning us that will help you with your rental movies needs."/>                                                                     
+	<link rel="stylesheet" type="text/css" href="staticPagesStyle.css">
+	<!--linking google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<!--Link for bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section class="header">
+		<nav>
+			<!--adding logo and ability to click on it and go back to the homepage-->
+			<a href="homepage.html"><img src="Images/logo3.png"></a>
+			<div class="navLinks">
+				<ul>
+					<!--adding ability to click on the link-->
+					<li><a href="homepage.html">HOME</a></li>
+					<li><a href="aboutUs.html">ABOUT</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+                    <li><a href="tutorials.html">TUTORIALS</a></li>                      
+					<li><a href="reviews.html">REVIEWS</a></li>
+					<li><a href="contactUs.html">CONTACT</a></li>
+					<li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+					<li><a href="terms.html">TERMS OF USE</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="accordion">
+			<h2>Frequently Asked Questions</h2>
+			
+			<div class="contentBox">
+				<div class="label">How long do I have access to my movies?</div>
+				<div class="content">
+					<p>Once you have purchased a movie, you can view it as many times as you would like as long as your Movie Capital account remains active.</p>
+				</div>
+			</div>
+			<div class="contentBox">
+				<div class="label">How do I get discounted movies?</div>
+				<div class="content">
+					<p>When searching for a movie add "Yes" to the discount option, which will filter the movies and only show ones that are currently discounted.</p>
+				</div>
+			</div>
+			<div class="contentBox">
+				<div class="label">What kind of movies are on Movie Capital?</div>
+				<div class="content">
+					<p>Movie Capital has a wide variety of independent movies to choose from. Genres such as Romance, Horror, Documentaries, Superheroes, and many more can be filtered through to find exactly what you want to watch. Also if you don’t know what you want to watch, let us make a suggestions for you by clicking the suggestions movie option. </p>
+				</div>
+			</div>
+			<div class="contentBox">
+				<div class="label">How do I add movies to my cart?</div>
+				<div class="content">
+					<p>You must be logged into Movie Capital to view and add movies to your cart. Once you are logged in and browsing movies, simply click on the movie poster you would like to order and select check out.</p>
+				</div>
+			</div>
+			
+		</div>
+
+
+		<script>
+			const accordion = document.getElementsByClassName('contentBox');
+
+			for(i=0; i<accordion.length; i++){
+				accordion[i].addEventListener('click', function(){
+					this.classList.toggle('active')
+				})
+			}
+		</script>
+
+	</section>
+
+
+	<!---Contact us---->
+
+	<section class="contactSection">
+		<h1>Didn't find the answer you were looking for?</h1>
+		<a href="support.html" class="heroBtnWhite">End User Documentation</a>	
+        <a href="adminHelp.html" class="heroBtnWhite">Admin Documentation</a>                                             
+	</section>	
+
+	<!--About Us-->
+	<section class="aboutUs">
+
+		<!--Icons not working-->
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+		</div>
+		<p></p>
+	</section>
+
+<script type="text/javascript">window.loop11_pp = [100, 81605];</script><script src="//cdn.loop11.com/embed.js" type="text/javascript" async="async"></script>
+</body>
+</html>

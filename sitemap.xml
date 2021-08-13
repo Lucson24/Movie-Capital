@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/homepage.html</loc>
+  <lastmod>2021-08-12T04:06:07+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/aboutUs.html</loc>
+  <lastmod>2021-08-12T03:19:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/faq.html</loc>
+  <lastmod>2021-08-12T03:21:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/tutorials.html</loc>
+  <lastmod>2021-08-12T04:06:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/reviews.html</loc>
+  <lastmod>2021-08-12T04:20:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/contactUs.html</loc>
+  <lastmod>2021-08-12T03:20:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/privacyPolicy.html</loc>
+  <lastmod>2021-08-12T04:04:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/terms.html</loc>
+  <lastmod>2021-08-12T04:56:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/userLogin.php</loc>
+  <lastmod>2021-08-12T18:43:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/services.html</loc>
+  <lastmod>2021-08-12T04:52:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/Register.php</loc>
+  <lastmod>2021-08-12T18:43:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/envImpact.html</loc>
+  <lastmod>2021-08-12T03:20:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laraara.myweb.cs.uwindsor.ca/jobs.html</loc>
+  <lastmod>2021-08-12T03:29:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

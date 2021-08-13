@@ -1,0 +1,62 @@
+html,
+
+/*applicable for all elements*/
+*{
+	/*margin: 0;
+	padding: 0;*/
+	/*connecting fonts*/
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+height: 100%;
+}
+
+html{
+display: table;
+margin: auto;
+}
+
+body{
+/*display: table-cell;*/
+/*background: linear-gradient(to bottom,#87CEFA,#F5F5F5);*/
+  
+  min-height: 100vh;
+	width: 100%;
+	/*setting background images and style*/
+	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/film.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+body{
+  text-align: center;
+}
+
+h2{
+	/*text-align: center;*/
+  	padding: 270px 0;
+  	color: white;
+  	font-size: 20px;
+}
+
+/*cusomizing links*/
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
